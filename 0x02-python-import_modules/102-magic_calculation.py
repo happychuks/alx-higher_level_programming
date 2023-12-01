@@ -2,7 +2,7 @@
 
 def magic_calculation(a, b):
     """Match bytecode provided in the tasl."""
-    from magic_calculation_102 import add, sub
+    from magic_calculation import add, sub
 
     if a < b:
         c = add(a, b)
