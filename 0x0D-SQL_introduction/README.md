@@ -78,6 +78,7 @@
 
 * **18. Temperatures #0**
   * [101-avg_temperatures.sql](./101-avg_temperatures.sql): MySQL script that displays the average temperature (Fahrenheit) by city in descending order.
+  - To download the dump file; use the following command: ```curl -o temperature.sql https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/temperatures.sql```
   - To load the dump file into the database; use ```mysql -u root -p hbtn_0c_0 < temperature.sql ```
 
 * **19. Temperatures #1**
