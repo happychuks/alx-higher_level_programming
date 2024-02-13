@@ -78,6 +78,7 @@
 
 * **18. Temperatures #0**
   * [101-avg_temperatures.sql](./101-avg_temperatures.sql): MySQL script that displays the average temperature (Fahrenheit) by city in descending order.
+  - To load the dump file into the database; use ```mysql -u root -p hbtn_0c_0 < temperature.sql ```
 
 * **19. Temperatures #1**
   * [102-top_city.sql](./102-top_city.sql): MySQL script that displays the three cities with the highest average temperature from July to August in descending order.
