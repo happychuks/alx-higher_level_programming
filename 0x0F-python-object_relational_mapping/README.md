@@ -43,3 +43,12 @@ session.commit()
 result = session.query(YourModelClass).filter_by(attribute1=value1).all()
 
 
+## To run this project
+1. Ensure mysql server is installed using: ```sudo apt install mysql-server```
+2. Test the installation using: ```sudo mysql``` It should open a shell for mysql; then exit with ```quit``` command
+3. Start the mysql service using: ```service mysql start``` 
+4. Run your scripts: E.g: ```cat 0-select_states.sql | mysql -uroot -p``` and ```./0-select_states.py root root hbtn_0e_0_usa```
+5. This will display your query result.
+
+Happy Coding!
+
